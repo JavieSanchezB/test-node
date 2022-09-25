@@ -17,3 +17,9 @@ console.table(process.env);
 console.log(process.argv);
 //Metodo Process informacion del Sistema con table
 console.table(process.argv);
+
+for (let i=0; i < process.argv.length; i++ ){
+    console.log(process.argv[i]);
+    
+}
+
