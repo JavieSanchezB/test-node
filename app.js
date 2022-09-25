@@ -1,3 +1,3 @@
-const { saludo } = require("./saludar");
+const  saludo  = require("./saludar");
 
 console.log(saludo.saludar("Hola mundo"));
