@@ -16,6 +16,6 @@ function saludomundo(){
   module.exports = {
     saludar: saludar,
     saludarHolamudo: saludarHolamudo,
-    'saludo mundo': saludomundo
+    'saludo mundo': saludomundo                                                                                                 
 
   };
