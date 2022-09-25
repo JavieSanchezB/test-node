@@ -1,5 +1,3 @@
-function saludar($nombre) {
-return $nombre;
-}
+const { saludo } = require("./saludar");
 
-console.log(saludar("Hola mundo"));
+console.log(saludo.saludar("Hola mundo"));
