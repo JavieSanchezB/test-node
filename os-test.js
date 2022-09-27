@@ -14,6 +14,7 @@ console.log(OS.release());
 console.log(OS.tmpdir());
 console.log(OS.uptime());
 console.log(OS.version());
+console.log(OS.userInfo());
 
 //No funciona en versiones menores a 18.9.0
 //console.log(OS.machine());
