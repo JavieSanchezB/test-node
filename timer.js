@@ -24,3 +24,6 @@ console.log('Antes de setImmediate');
 setImmediate(enviarMesnaje,'ejecutando setImmediate()');
 //Se ejecuta Segundo
 console.log('Despues de setImmediate');
+
+//SetInterval ejecuta primero codigo sincrono
+setInterval(enviarMesnaje, 1500,'ejecutando setInterval()');
