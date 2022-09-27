@@ -16,6 +16,8 @@ function sumar(a, b){
 setTimeout(saludaTiempo, 10000, '10000 segundos');
 setTimeout(sumar, 20000, 10, 10);
 
+
+//SetImmediate ejecuta primero codigo sincrono
 //Se Ejecuta primero
 console.log('Antes de setImmediate');
 //Se ejecuta tercero
