@@ -12,9 +12,9 @@ fs.appendFileSync('main.txt', 'este un ejemplo para agrear datos a un archivo al
 console.log('agraga la informacion al archivo')
 
 //eliminar un archivo
-fs.unlink('archivoeliminar.txt')
+fs.unlinkSync('archivoeliminar.txt')
 console.log('archivo elimnado');
 
 //eliminar un archivo
-fs.unlink('archivoeliminar.txt')
+fs.unlinkSync('archivoeliminar.txt')
 console.log('archivo elimnado');
