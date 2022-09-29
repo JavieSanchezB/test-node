@@ -13,6 +13,7 @@ fs.readFile('index.html', 'utf-8', (err, contenido) => {
 
 });
 
+//Cambiar el nombre del archivo
 // fs.rename('archivo.html','main.js', (err) => {
 // if(err){
 //     throw err;
@@ -21,6 +22,7 @@ fs.readFile('index.html', 'utf-8', (err, contenido) => {
 // }
 // });
 
+//agregar texto al final de archivo
 fs.appendFile('main.txt', 'este un ejemplo para agrear datos a un archivo al final', (err) => {
   if (err) {
     throw err;
@@ -28,3 +30,21 @@ fs.appendFile('main.txt', 'este un ejemplo para agrear datos a un archivo al fin
     console.log('agraga la informacion al archivo')
   }
 });
+
+
+//eliminar un archivo
+fs.unlink('archivoeliminar.txt',(err)=>{
+  if(err){
+    throw err;
+  }else{
+    console.log('archivo elimnado');
+  }
+});
+//eliminar un archivo
+// fs.unlink('archivoeliminar.txt', (err) => {
+//   if (err) {
+//     throw err;
+//   } else {
+//     console.log('archivo elimnado');
+//   }
+// });
